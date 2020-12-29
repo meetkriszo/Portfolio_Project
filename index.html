@@ -11,7 +11,7 @@
     <title>Welcome | Chris Farley</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark ">
     <div class="container-fluid container">
         <a class="navbar-brand active" href="#">CHRIS FARLEY</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -53,8 +53,8 @@
 <div class="jumbotron">
     <div class="container">
         <div class="cover_text">
-            <h2><i class="far fa-smile"></i>Hi I'm Chirs.</h2>
-            <h4>A Web Developer.<h4>
+            <h2>Hi I'm Chirs.</h2>
+            <h4>A Web Developer!</h4><span class="element"></span>
         </div>
     </div>
     
@@ -84,9 +84,20 @@
 
 
 
-
+<script src="JS/lib/typed.js"></script>
    
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 <script src="JS/portfolio.js"></script>
+<script>
+    var options = {
+            strings: ['Also a entry-level data scintest.', '&amp; A aspiring cyber security engineer.'],
+            backSpeed: 40,
+            typeSpeed: 45,
+            cursorChar: '|',
+            loop: true
+        };
+
+        var typed = new Typed('.element', options);
+</script>
 </body>
 </html>
