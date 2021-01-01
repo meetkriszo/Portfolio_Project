@@ -53,3 +53,29 @@ element {
   align-items: center;
   padding-top: 35vh;
 }
+
+.section {
+  min-height: 100vh;
+  font-family: sans-serif "Montserrat";
+}
+
+.section img {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}
+
+.section > * {
+  padding-top: 23vh;
+}
+
+.section h2,
+p {
+  line-height: 25px;
+  padding: 14px;
+}
+
+.section p {
+  font-size: 18px;
+  font-weight: 78;
+}
