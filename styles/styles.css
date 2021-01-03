@@ -37,7 +37,7 @@ element {
 }
 
 .btn {
-  margin-top: 30px;
+  margin-top: 35px;
   font-family: sans-serif "Montserrat";
   margin: 10px;
   border-radius: 0px;
@@ -54,7 +54,8 @@ element {
   padding-top: 35vh;
 }
 
-.section {
+.section,
+.projects {
   min-height: 100vh;
   font-family: sans-serif "Montserrat";
 }
@@ -66,16 +67,35 @@ element {
 }
 
 .section > * {
-  padding-top: 23vh;
+  padding-top: 19vh;
+  text-align: center;
+  padding-bottom: 50px;
 }
 
 .section h2,
 p {
   line-height: 25px;
   padding: 14px;
+  text-align: left;
 }
 
 .section p {
   font-size: 18px;
   font-weight: 78;
+}
+
+.projects {
+  font-family: sans-serif "Montserrat";
+  background-color: #cccccc;
+}
+
+.projects > * {
+  padding-top: 19vh;
+  text-align: center;
+}
+
+.projects h2 {
+  line-height: 25px;
+  padding: 14px;
+  text-align: left;
 }
