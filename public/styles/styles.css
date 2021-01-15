@@ -54,6 +54,17 @@ element {
   padding-top: 35vh;
 }
 
+@media only screen and (max-width: 414px) {
+  .jumbotron h2 {
+    font-size: 60px;
+  }
+
+  .jumbotron h4 {
+    font-size: 19px;
+  }
+}
+/* cover ends */
+/* about section */
 .section,
 .projects {
   min-height: 100vh;
@@ -84,9 +95,19 @@ p {
   font-weight: 78;
 }
 
+.resume_link a {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 414px) {
+  .section > * {
+    padding-top: 12vh;
+  }
+}
+/* about ends */
 .projects {
   font-family: sans-serif "Montserrat";
-  background-color: #cccccc;
+  background-color: #eafffd;
 }
 
 .projects > * {
