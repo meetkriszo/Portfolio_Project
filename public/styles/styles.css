@@ -97,6 +97,7 @@ p {
 
 .resume_link a {
   text-decoration: none;
+  color: coral;
 }
 
 @media only screen and (max-width: 414px) {
@@ -119,4 +120,10 @@ p {
   line-height: 25px;
   padding: 14px;
   text-align: left;
+}
+
+/* contact sytels */
+
+.contact {
+  min-height: 100vh;
 }
