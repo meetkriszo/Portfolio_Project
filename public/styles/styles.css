@@ -62,6 +62,10 @@ element {
   .jumbotron h4 {
     font-size: 19px;
   }
+
+  .cover-content {
+    padding-top: 20vh;
+  }
 }
 /* cover ends */
 /* about section */
